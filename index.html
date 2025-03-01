@@ -1,0 +1,958 @@
+<!doctype html>
+<html lang="en">
+
+
+<head>
+
+    <meta charset="utf-8" />
+    <title>QANATEER COFFEE & CHOCOLATE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
+    <meta content="Themesdesign" name="author" />
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+    <!-- plugin css -->
+    <link href="assets/libs/jsvectormap/css/jsvectormap.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- Layout Js -->
+    <script src="assets/js/layout.js"></script>
+    <!-- Bootstrap Css -->
+    <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+    <!-- Icons Css -->
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <!-- App Css-->
+    <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+
+
+
+</head>
+
+<body data-sidebar="colored">
+
+    <!-- <body data-layout="horizontal" data-topbar="dark"> -->
+
+    <!-- Begin page -->
+    <div id="layout-wrapper">
+
+
+
+        <header id="page-topbar">
+            <div class="navbar-header">
+                <div class="d-flex">
+                    <!-- LOGO -->
+                    <div class="navbar-brand-box">
+
+
+                        <a href="index.html" class="logo logo-light">
+                            <span class="logo-sm">
+                                <img src="assets/images/logo-dash-white.png" alt="logo-sm-light" height="24">
+                            </span>
+                            <span class="logo-lg">
+                                <img src="assets/images/logo-dash-white.png" alt="logo-light" height="25">
+                            </span>
+                        </a>
+                    </div>
+
+                    <button type="button"
+                        class="btn btn-sm px-3 font-size-24 header-item waves-effect vertical-menu-btn"
+                        id="vertical-menu-btn">
+                        <i class="ri-menu-2-line align-middle"></i>
+                    </button>
+
+                    <!-- start page title -->
+                    <div class="page-title-box align-self-center d-none d-md-block">
+                        <h4 class="page-title mb-0">Dashboard</h4>
+                    </div>
+                    <!-- end page title -->
+                </div>
+
+                <div class="d-flex">
+
+                    <!-- App Search-->
+                    <form class="app-search d-none d-lg-block">
+                        <div class="position-relative">
+                            <input type="text" class="form-control" placeholder="Search...">
+                            <span class="ri-search-line"></span>
+                        </div>
+                    </form>
+
+                    <div class="dropdown d-inline-block d-lg-none ms-2">
+                        <button type="button" class="btn header-item noti-icon waves-effect"
+                            id="page-header-search-dropdown" data-bs-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            <i class="ri-search-line"></i>
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0"
+                            aria-labelledby="page-header-search-dropdown">
+
+                            <form class="p-3">
+                                <div class="mb-3 m-0">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Search ...">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-primary" type="submit"><i
+                                                    class="ri-search-line"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="dropdown d-none d-sm-inline-block">
+                        <button type="button" class="btn header-item waves-effect" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            <img class="" src="assets/images/flags/us.jpg" alt="Header Language" height="16">
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-end">
+
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <img src="assets/images/flags/sa.jpg" alt="user-image" class="me-1" height="16">
+                                <span class="align-middle">Saudi Arabia</span>
+                            </a>
+
+
+
+                        </div>
+                    </div>
+
+                    <div class="dropdown d-none d-lg-inline-block ms-1">
+                        <button type="button" class="btn header-item noti-icon waves-effect" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            <i class="ri-apps-2-line"></i>
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end">
+                            <div class="px-lg-2">
+                                <div class="row g-0">
+                                    <div class="col">
+                                        <a class="dropdown-icon-item" href="#">
+                                            <img src="assets/images/brands/github.png" alt="Panel">
+                                            <span>Control Panel</span>
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <a class="dropdown-icon-item" href="#">
+                                            <img src="assets/images/brands/bitbucket.png" alt="Pay">
+                                            <span>Pay</span>
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <a class="dropdown-icon-item" href="#">
+                                            <img src="assets/images/brands/dribbble.png" alt="Online">
+                                            <span>Online</span>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="row g-0">
+                                    <div class="col">
+                                        <a class="dropdown-icon-item" href="#">
+                                            <img src="assets/images/brands/dropbox.png" alt="Capital">
+                                            <span>Capital (Finance)</span>
+                                        </a>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dropdown d-none d-lg-inline-block ms-1">
+                        <button type="button" class="btn header-item noti-icon waves-effect" data-toggle="fullscreen">
+                            <i class="ri-fullscreen-line"></i>
+                        </button>
+                    </div>
+
+                    <div class="dropdown d-inline-block">
+                        <button type="button" class="btn header-item noti-icon waves-effect"
+                            id="page-header-notifications-dropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="ri-notification-3-line"></i>
+                            <span class="noti-dot"></span>
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0"
+                            aria-labelledby="page-header-notifications-dropdown">
+                            <div class="p-3">
+                                <div class="row align-items-center">
+                                    <div class="col">
+                                        <h6 class="m-0"> Notifications </h6>
+                                    </div>
+                                    <div class="col-auto">
+                                        <a href="#!" class="small"> View All</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-simplebar style="max-height: 230px;">
+
+                                <a href="#" class="text-reset notification-item">
+                                    <div class="d-flex">
+                                        <div class="avatar-xs me-3">
+                                            <span class="avatar-title bg-success rounded-circle font-size-16">
+                                                <i class="ri-checkbox-circle-line"></i>
+                                            </span>
+                                        </div>
+                                        <div class="flex-1">
+                                            <h6 class="mb-1">Your item is shipped</h6>
+                                            <div class="font-size-12 text-muted">
+                                                <p class="mb-1">If several languages coalesce the grammar</p>
+                                                <p class="mb-0"><i class="mdi mdi-clock-outline"></i> 3 min ago</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <a href="#" class="text-reset notification-item">
+                                    <div class="d-flex">
+                                        <div class="avatar-xs me-3">
+                                            <span class="avatar-title bg-success rounded-circle font-size-16">
+                                                <i class="ri-checkbox-circle-line"></i>
+                                            </span>
+                                        </div>
+                                        <div class="flex-1">
+                                            <h6 class="mb-1">Your item is shipped</h6>
+                                            <div class="font-size-12 text-muted">
+                                                <p class="mb-1">If several languages coalesce the grammar</p>
+                                                <p class="mb-0"><i class="mdi mdi-clock-outline"></i> 3 min ago</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <a href="#" class="text-reset notification-item">
+                                    <div class="d-flex">
+                                        <div class="avatar-xs me-3">
+                                            <span class="avatar-title bg-success rounded-circle font-size-16">
+                                                <i class="ri-checkbox-circle-line"></i>
+                                            </span>
+                                        </div>
+                                        <div class="flex-1">
+                                            <h6 class="mb-1">Your item is shipped</h6>
+                                            <div class="font-size-12 text-muted">
+                                                <p class="mb-1">If several languages coalesce the grammar</p>
+                                                <p class="mb-0"><i class="mdi mdi-clock-outline"></i> 3 min ago</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+
+                            </div>
+                            <div class="p-2 border-top">
+                                <div class="d-grid">
+                                    <a class="btn btn-sm btn-link font-size-14 text-center" href="javascript:void(0)">
+                                        <i class="mdi mdi-arrow-right-circle me-1"></i> View More..
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+        <!-- ========== Left Sidebar Start ========== -->
+        <div class="vertical-menu">
+
+            <!-- LOGO -->
+            <div class="navbar-brand-box">
+
+
+                <a href="index.html" class="logo logo-light">
+                    <span class="logo-sm">
+                        <img src="assets/images/logo-dash-white-sm.png" alt="logo-sm-light" height="60">
+                    </span>
+                    <span class="logo-lg">
+                        <img src="assets/images/logo-dash-white.png" alt="logo-light" height="80">
+                    </span>
+                </a>
+            </div>
+
+            <button type="button" class="btn btn-sm px-3 font-size-24 header-item waves-effect vertical-menu-btn"
+                id="vertical-menu-btn">
+                <i class="ri-menu-2-line align-middle"></i>
+            </button>
+
+            <div data-simplebar class="vertical-scroll">
+
+                <!--- Sidemenu -->
+                <div id="sidebar-menu">
+                    <div class="dropdown px-3 sidebar-user user-dropdown select-dropdown">
+                        <button type="button" class="btn w-100 px-0 border-0" id="page-header-user-dropdown"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                    <img src="assets/images/avatar.png"
+                                        class="img-fluid header-profile-user rounded-circle" alt="">
+                                </div>
+
+                                <div class="flex-grow-1 ms-2 text-start">
+                                    <span class="ms-1 fw-medium user-name-text">Ahmad Al Ashi</span>
+                                </div>
+
+                                <div class="flex-shrink-0 text-end">
+                                    <i class="mdi mdi-dots-vertical font-size-16"></i>
+                                </div>
+                            </span>
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-end">
+                            <!-- item-->
+
+                            <a class="dropdown-item" href="#"><i
+                                    class="ri-bank-card-2-line text-muted font-size-16 align-middle me-1"></i> <span
+                                    class="align-middle">Account Number : <b>862010</b></span></a>
+                            <a class="dropdown-item" href="#"><i
+                                    class="ri-mail-line text-muted font-size-16 align-middle me-1"></i> <span
+                                    class="align-middle">ahmad.3ashi@hotmail.com</span></a>
+                            <a class="dropdown-item" href="#"><i
+                                    class="ri-logout-box-line text-muted font-size-16 align-middle me-1"></i> <span
+                                    class="align-middle">Sign Out</span></a>
+                        </div>
+                    </div>
+
+
+
+                    <!-- Left Menu Start -->
+                    <ul class="metismenu list-unstyled" id="side-menu">
+                        <li class="menu-title">Menu</li>
+
+                        <li>
+                            <a href="#" class="waves-effect">
+                                <i class="ri-dashboard-line"></i>
+                                <span>Summary</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="waves-effect">
+                                <i class="ri-shopping-cart-2-line"></i>
+                                <span>Orders</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="waves-effect">
+                                <i class="ri-group-line"></i>
+                                <span>Customers</span>
+                            </a>
+                        </li>
+
+
+
+
+                        <li>
+                            <a href="javascript: void(0);" class="has-arrow waves-effect">
+                                <i class="ri-line-chart-line"></i>
+                                <span>Reports</span>
+                            </a>
+                            <ul class="sub-menu" aria-expanded="true">
+                                <li><a href="#">Sales Reports</a></li>
+                                <li><a href="#">Inventory Reports</a></li>
+                                <li><a href="#">Business Reports</a></li>
+                                <li><a href="#">Analysis Reports</a></li>
+                                <li><a href="#">Foodex Pay Reports</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="javascript: void(0);" class="has-arrow waves-effect">
+                                <i class="ri-shopping-bag-2-line"></i>
+                                <span>Inventory</span>
+                            </a>
+                            <ul class="sub-menu" aria-expanded="true">
+                                <li><a href="#">Inventory Materials</a></li>
+                                <li><a href="#">Suppliers</a></li>
+                                <li><a href="#">Purchase Orders</a></li>
+                                <li><a href="#">Transfer Order</a></li>
+                                <li><a href="#">Stock Inventory</a></li>
+                                <li><a href="#">Purchase</a></li>
+                                <li><a href="#">Transfers</a></li>
+                                <li><a href="#">Production</a></li>
+                                <li><a href="#">More</a></li>
+                            </ul>
+                        </li>
+
+
+                        <li>
+                            <a href="javascript: void(0);" class="has-arrow waves-effect">
+                                <i class="mdi mdi-hamburger"></i>
+                                <span>Products List</span>
+                            </a>
+                            <ul class="sub-menu" aria-expanded="true">
+                                <li><a href="#">Categories</a></li>
+                                <li><a href="#">Products</a></li>
+                                <li><a href="#">Combo Meals</a></li>
+                                <li><a href="#">Gift Cards</a></li>
+                                <li><a href="#">Extras</a></li>
+                                <li><a href="#">Add-on Options</a></li>
+                                <li><a href="#">Groups</a></li>
+
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="javascript: void(0);" class="has-arrow waves-effect">
+                                <i class="ri-settings-2-line"></i>
+                                <span>Management</span>
+                            </a>
+                            <ul class="sub-menu" aria-expanded="true">
+                                <li><a href="#">Users</a></li>
+                                <li><a href="#">Roles</a></li>
+                                <li><a href="#">Branches</a></li>
+                                <li><a href="#">Devices</a></li>
+                                <li><a href="#">Discounts</a></li>
+                                <li><a href="#">Coupons</a></li>
+                                <li><a href="#">Promotions</a></li>
+
+                                <li><a href="#">Timed Events</a></li>
+                                <li><a href="#">More</a></li>
+
+                            </ul>
+                        </li>
+
+
+                        <li>
+                            <a href="#" class="waves-effect">
+                                <i class="ri-store-2-line"></i>
+                                <span>Marketplace</span>
+                            </a>
+                        </li>
+
+
+
+
+                    </ul>
+
+                </div>
+                <!-- Sidebar -->
+            </div>
+
+        </div>
+        <!-- Left Sidebar End -->
+
+
+
+        <!-- ============================================================== -->
+        <!-- Start right Content here -->
+        <!-- ============================================================== -->
+        <div class="main-content">
+
+            <div class="page-content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title mb-4">Orders</h4>
+                                    <div id="line_chart_orders" class="apex-charts" dir="ltr"></div>
+                                </div>
+                            </div><!--end card-->
+                        </div><!--end col-->
+
+                        <div class="col-lg-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title mb-4">Net Sales</h4>
+                                    <div id="line_chart_NetSales" class="apex-charts" dir="ltr"></div>
+                                </div>
+                            </div>
+
+                            <!--end card-->
+                        </div><!--end col-->
+                    </div><!-- end row -->
+
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title mb-4">Net Payments</h4>
+                                    <div id="line_chart_NetPayments" class="apex-charts" dir="ltr"></div>
+                                </div>
+                            </div><!--end card-->
+                        </div><!--end col-->
+
+                        <div class="col-lg-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title mb-4">Return Amount</h4>
+                                    <div id="line_chart_ReturnAmount" class="apex-charts" dir="ltr"></div>
+                                </div>
+                            </div>
+
+                            <!--end card-->
+                        </div><!--end col-->
+                    </div><!-- end row -->
+
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title mb-4">Order Types</h4>
+                                    <div id="line_chart_OrderTypes" class="apex-charts" dir="ltr"></div>
+                                </div>
+                            </div><!--end card-->
+                        </div><!--end col-->
+                    </div><!-- end row -->
+
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title mb-4">Sales Per Hour</h4>
+                                    <div id="column_chart_PerHour" class="apex-charts" dir="ltr"></div>
+                                </div>
+                            </div><!--end card-->
+                        </div><!--end col-->
+                    </div><!-- end row -->
+
+
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title mb-4">Top Products by Net Sales</h4>
+                                    <div id="TopProducts_pie_chart" class="apex-charts" dir="ltr"></div>
+                                </div>
+                            </div><!--end card-->
+                        </div><!-- end col -->
+
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title mb-4">Highest Payments</h4>
+                                    <div id="HighestPayments_pie_chart" class="apex-charts" dir="ltr"></div>
+                                </div>
+                            </div><!--end card-->
+                        </div><!-- end col -->
+
+
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title mb-4">Top Branches by Net Sales</h4>
+                                    <div id="TopBranches_pie_chart" class="apex-charts" dir="ltr"></div>
+                                </div>
+                            </div><!--end card-->
+                        </div><!-- end col -->
+
+
+                    </div><!-- end row -->
+
+
+
+
+
+
+
+
+                </div>
+                <!-- container-fluid -->
+            </div>
+            <!-- End Page-content -->
+
+            <footer class="footer">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <script>document.write(new Date().getFullYear())</script> © QANATEER COFFEE & CHOCOLATE.
+                        </div>
+
+
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+        <!-- end main content-->
+
+    </div>
+    <!-- END layout-wrapper -->
+
+
+
+    <!-- Right bar overlay-->
+    <div class="rightbar-overlay"></div>
+
+    <!-- JAVASCRIPT -->
+    <script src="assets/libs/jquery/jquery.min.js"></script>
+    <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/libs/metismenu/metisMenu.min.js"></script>
+    <script src="assets/libs/simplebar/simplebar.min.js"></script>
+    <script src="assets/libs/node-waves/waves.min.js"></script>
+
+    <!-- apexcharts -->
+    <script src="assets/libs/apexcharts/apexcharts.min.js"></script>
+
+    <!-- Vector map-->
+    <script src="assets/libs/jsvectormap/js/jsvectormap.min.js"></script>
+    <script src="assets/libs/jsvectormap/maps/world-merc.js"></script>
+
+    <script src="assets/js/pages/dashboard.init.js"></script>
+
+
+
+    <!-- App js -->
+    <script src="assets/js/app.js"></script>
+
+    <script>
+        // line Chart Order
+        var options = {
+            series: [{ name: "Desktops", data: [10, 41, 35, 51, 49, 62, 69, 91, 148] }],
+            chart: {
+                height: 350,
+                type: "line",
+                zoom: { enabled: !1 },
+                toolbar: { show: !1 },
+            },
+            markers: { size: 4 },
+            dataLabels: { enabled: !1 },
+            stroke: { curve: "straight" },
+            colors: ["#086070"],
+            title: {
+                // text: "Product Trends by Month",
+                align: "left",
+                style: { fontWeight: 500 },
+            },
+            xaxis: {
+                categories: [
+                    "Jan",
+                    "Feb",
+                    "Mar",
+                    "Apr",
+                    "May",
+                    "Jun",
+                    "Jul",
+                    "Aug",
+                    "Sep",
+                ],
+            },
+        },
+            chart = new ApexCharts(document.querySelector("#line_chart_orders"), options);
+        chart.render();
+
+        // line Chart Order
+        // line Chart NetSales
+        var options = {
+            series: [{ name: "Desktops", data: [10, 41, 35, 51, 49, 62, 69, 91, 148] }],
+            chart: {
+                height: 350,
+                type: "line",
+                zoom: { enabled: !1 },
+                toolbar: { show: !1 },
+            },
+            markers: { size: 4 },
+            dataLabels: { enabled: !1 },
+            stroke: { curve: "straight" },
+            colors: ["#086070"],
+            title: {
+                // text: "Product Trends by Month",
+                align: "left",
+                style: { fontWeight: 500 },
+            },
+            xaxis: {
+                categories: [
+                    "Jan",
+                    "Feb",
+                    "Mar",
+                    "Apr",
+                    "May",
+                    "Jun",
+                    "Jul",
+                    "Aug",
+                    "Sep",
+                ],
+            },
+        },
+            chart = new ApexCharts(document.querySelector("#line_chart_NetSales"), options);
+        chart.render();
+        // line Chart NetSales
+
+        // line Chart NetPayments
+        var options = {
+            series: [{ name: "Desktops", data: [10, 41, 35, 51, 49, 62, 69, 91, 148] }],
+            chart: {
+                height: 350,
+                type: "line",
+                zoom: { enabled: !1 },
+                toolbar: { show: !1 },
+            },
+            markers: { size: 4 },
+            dataLabels: { enabled: !1 },
+            stroke: { curve: "straight" },
+            colors: ["#086070"],
+            title: {
+                // text: "Product Trends by Month",
+                align: "left",
+                style: { fontWeight: 500 },
+            },
+            xaxis: {
+                categories: [
+                    "Jan",
+                    "Feb",
+                    "Mar",
+                    "Apr",
+                    "May",
+                    "Jun",
+                    "Jul",
+                    "Aug",
+                    "Sep",
+                ],
+            },
+        },
+            chart = new ApexCharts(document.querySelector("#line_chart_NetPayments"), options);
+        chart.render();
+        // line Chart NetPayments
+
+        // line Chart Return Amount
+        var options = {
+            series: [{ name: "Desktops", data: [10, 41, 35, 51, 49, 62, 69, 91, 148] }],
+            chart: {
+                height: 350,
+                type: "line",
+                zoom: { enabled: !1 },
+                toolbar: { show: !1 },
+            },
+            markers: { size: 4 },
+            dataLabels: { enabled: !1 },
+            stroke: { curve: "straight" },
+            colors: ["#086070"],
+            title: {
+                // text: "Product Trends by Month",
+                align: "left",
+                style: { fontWeight: 500 },
+            },
+            xaxis: {
+                categories: [
+                    "Jan",
+                    "Feb",
+                    "Mar",
+                    "Apr",
+                    "May",
+                    "Jun",
+                    "Jul",
+                    "Aug",
+                    "Sep",
+                ],
+            },
+        },
+            chart = new ApexCharts(document.querySelector("#line_chart_ReturnAmount"), options);
+        chart.render();
+        // line Chart Return Amount
+
+
+        // line Chart Order Types
+        options = {
+            chart: {
+                height: 380,
+                type: "line",
+                zoom: { enabled: !1 },
+                toolbar: { show: !1 },
+            },
+            colors: ["#086070", "#ed5e49", "#2651e9"],
+            dataLabels: { enabled: !1 },
+            stroke: { width: [3, 4, 3], curve: "straight", dashArray: [0, 8, 5] },
+            series: [
+                {
+                    name: "Session Duration",
+                    data: [45, 52, 38, 24, 33, 26, 21, 20, 6, 8, 15, 10],
+                },
+                {
+                    name: "Page Views",
+                    data: [36, 42, 60, 42, 13, 18, 29, 37, 36, 51, 32, 35],
+                },
+                {
+                    name: "Total Visits",
+                    data: [89, 56, 74, 98, 72, 38, 64, 46, 84, 58, 46, 49],
+                },
+            ],
+            title: { align: "left", style: { fontWeight: 500 } },
+            markers: { size: 0, hover: { sizeOffset: 6 } },
+            xaxis: {
+                categories: [
+                    "01 Jan",
+                    "02 Jan",
+                    "03 Jan",
+                    "04 Jan",
+                    "05 Jan",
+                    "06 Jan",
+                    "07 Jan",
+                    "08 Jan",
+                    "09 Jan",
+                    "10 Jan",
+                    "11 Jan",
+                    "12 Jan",
+                ],
+            },
+            tooltip: {
+                y: [
+                    {
+                        title: {
+                            formatter: function (e) {
+                                return e + " (mins)";
+                            },
+                        },
+                    },
+                    {
+                        title: {
+                            formatter: function (e) {
+                                return e + " per session";
+                            },
+                        },
+                    },
+                    {
+                        title: {
+                            formatter: function (e) {
+                                return e;
+                            },
+                        },
+                    },
+                ],
+            },
+            grid: { borderColor: "#f1f1f1" },
+        };
+        (chart = new ApexCharts(
+            document.querySelector("#line_chart_OrderTypes"),
+            options
+        )).render();
+        // line Chart Order Types
+
+        // line Chart PerHour
+        options = {
+            chart: { height: 350, type: "bar", toolbar: { show: !1 } },
+            plotOptions: { bar: { dataLabels: { position: "top" } } },
+            dataLabels: {
+                enabled: !0,
+                formatter: function (e) {
+                    return e + "%";
+                },
+                offsetY: -20,
+                style: { fontSize: "12px", colors: ["#adb5bd"] },
+            },
+            series: [
+                {
+                    name: "Inflation",
+                    data: [2.5, 3.2, 5, 10.1, 4.2, 3.8, 3, 2.4, 4, 1.2, 3.5, 0.8],
+                },
+            ],
+            colors: ["#086070"],
+            grid: { borderColor: "#f1f1f1" },
+            xaxis: {
+                categories: [
+                    "Jan",
+                    "Feb",
+                    "Mar",
+                    "Apr",
+                    "May",
+                    "Jun",
+                    "Jul",
+                    "Aug",
+                    "Sep",
+                    "Oct",
+                    "Nov",
+                    "Dec",
+                ],
+                position: "top",
+                labels: { offsetY: -18 },
+                axisBorder: { show: !1 },
+                axisTicks: { show: !1 },
+                crosshairs: {
+                    fill: {
+                        type: "gradient",
+                        gradient: {
+                            colorFrom: "#D8E3F0",
+                            colorTo: "#BED1E6",
+                            stops: [0, 100],
+                            opacityFrom: 0.4,
+                            opacityTo: 0.5,
+                        },
+                    },
+                },
+                tooltip: { enabled: !0, offsetY: -35 },
+            },
+            fill: {
+                gradient: {
+                    shade: "light",
+                    type: "horizontal",
+                    shadeIntensity: 0.25,
+                    gradientToColors: void 0,
+                    inverseColors: !0,
+                    opacityFrom: 1,
+                    opacityTo: 1,
+                    stops: [50, 0, 100, 100],
+                },
+            },
+            yaxis: {
+                axisBorder: { show: !1 },
+                axisTicks: { show: !1 },
+                labels: {
+                    show: !1,
+                    formatter: function (e) {
+                        return e + "%";
+                    },
+                },
+            },
+            title: {
+
+                floating: !0,
+                offsetY: 320,
+                align: "center",
+                style: { fontWeight: 500 },
+            },
+        };
+        (chart = new ApexCharts(
+            document.querySelector("#column_chart_PerHour"),
+            options
+        )).render();
+        // line Chart PerHour
+
+
+        // line Chart Top Products
+        var options = {
+            series: [44, 55, 13, 43, 22],
+            chart: { height: 300, type: "pie" },
+            labels: ["Team A", "Team B", "Team C", "Team D", "Team E"],
+            legend: { position: "bottom" },
+            dataLabels: { dropShadow: { enabled: !1 } },
+            colors: ["#086070", "#ed5e49", "#2651e9", "#fcb92c", "#4aa3ff"],
+        },
+            chart = new ApexCharts(document.querySelector("#TopProducts_pie_chart"), options);
+        chart.render();
+
+        // line Chart Top Products
+
+        // line Chart Highest Payments
+        var options = {
+            series: [44, 55, 13, 43, 22],
+            chart: { height: 300, type: "pie" },
+            labels: ["Team A", "Team B", "Team C", "Team D", "Team E"],
+            legend: { position: "bottom" },
+            dataLabels: { dropShadow: { enabled: !1 } },
+            colors: ["#086070", "#ed5e49", "#2651e9", "#fcb92c", "#4aa3ff"],
+        },
+            chart = new ApexCharts(document.querySelector("#HighestPayments_pie_chart"), options);
+        chart.render();
+
+        // line Chart Highest Payments
+
+
+        // line Chart Top Branches
+        var options = {
+            series: [44, 55, 13, 43, 22],
+            chart: { height: 300, type: "pie" },
+            labels: ["Team A", "Team B", "Team C", "Team D", "Team E"],
+            legend: { position: "bottom" },
+            dataLabels: { dropShadow: { enabled: !1 } },
+            colors: ["#086070", "#ed5e49", "#2651e9", "#fcb92c", "#4aa3ff"],
+        },
+            chart = new ApexCharts(document.querySelector("#TopBranches_pie_chart"), options);
+        chart.render();
+
+        // line Chart Top Branches
+    </script>
+</body>
+
+
+</html>
